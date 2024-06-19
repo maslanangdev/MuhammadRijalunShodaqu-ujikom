@@ -2,3 +2,4 @@
 - Scoring system
 - Hit Detection (still halfway through)
 - VFX
+- Pause Menu
