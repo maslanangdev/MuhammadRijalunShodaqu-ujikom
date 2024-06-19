@@ -3,3 +3,5 @@
 - Hit Detection (still halfway through)
 - VFX
 - Pause Menu
+- Player Animations
+- Camera Movements
