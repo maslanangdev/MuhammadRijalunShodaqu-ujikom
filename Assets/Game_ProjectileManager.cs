@@ -26,4 +26,11 @@ public class Game_ProjectileManager : MonoBehaviour
         
 
     }
+
+
+    void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.name);
+        Debug.Log("Hit Something");
+    }
 }

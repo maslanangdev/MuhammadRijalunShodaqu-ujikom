@@ -37,7 +37,7 @@ public class Game_PlayerHandler : MonoBehaviour
 
 
         if ((Input.GetKeyDown(KeyCode.Mouse0))){
-            Instantiate(projectile, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+            Instantiate(projectile, new Vector3(transform.position.x, transform.position.y + .5f, transform.position.z), Quaternion.identity);
         }
 
     }

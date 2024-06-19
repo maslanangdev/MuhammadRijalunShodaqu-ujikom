@@ -333,6 +333,10 @@ PrefabInstance:
       value: 3.2638527e-14
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4b3cf8353ced51148982cf721c363fb1, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 919132149155446097, guid: 4b3cf8353ced51148982cf721c363fb1, type: 3}
       propertyPath: m_Name
       value: Horse
       objectReference: {fileID: 0}
@@ -565,7 +569,13 @@ PrefabInstance:
       addedObject: {fileID: 1860165333860588434}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4b3cf8353ced51148982cf721c363fb1, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 8060902569342330028}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4b3cf8353ced51148982cf721c363fb1, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 4583154948629803622}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4b3cf8353ced51148982cf721c363fb1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8670368456826019130}
   m_SourcePrefab: {fileID: 100100000, guid: 4b3cf8353ced51148982cf721c363fb1, type: 3}
 --- !u!1 &7984567569602130397 stripped
 GameObject:
@@ -594,6 +604,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &8060902569342330028
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7984567569602130397}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.309921, y: 36.539368, z: 41.241505}
+  m_Center: {x: 0.21844655, y: 17.769684, z: 5.645363}
 --- !u!114 &4583154948629803622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -606,4 +637,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c3fe0314c7d3004d9249a94debe8265, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 300
+  profile: {fileID: 11400000, guid: d85360201dd8fa7459ca8c2646dfdf54, type: 2}
+--- !u!54 &-8670368456826019130
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7984567569602130397}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

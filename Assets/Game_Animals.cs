@@ -7,5 +7,5 @@ public class Game_Animals : ScriptableObject
     public int animalSpeed;
     public int animalHungerNeed;
     public int animalScore;
-    public GameObject animalPrefab;
+    //public GameObject animalPrefab;
 }

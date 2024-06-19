@@ -1008,7 +1008,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3688529984645844686}
   - component: {fileID: 442332118539680891}
+  - component: {fileID: 582254676995628420}
   - component: {fileID: -1348703602309961321}
+  - component: {fileID: -6626183365003184259}
   m_Layer: 0
   m_Name: Cow
   m_TagString: Untagged
@@ -1055,6 +1057,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &582254676995628420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4070016936140936308}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 17.125343, y: 34.903748, z: 38.17385}
+  m_Center: {x: -0.84110427, y: 16.951868, z: -4.42933}
 --- !u!114 &-1348703602309961321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1067,7 +1090,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c3fe0314c7d3004d9249a94debe8265, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 150
+  profile: {fileID: 11400000, guid: f281ff0c6d77b204eae313a4bf373782, type: 2}
+--- !u!54 &-6626183365003184259
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4070016936140936308}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4106220350710475833
 GameObject:
   m_ObjectHideFlags: 0

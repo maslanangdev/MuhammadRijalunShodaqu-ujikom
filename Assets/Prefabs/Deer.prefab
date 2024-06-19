@@ -202,7 +202,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1631160972587036138}
   - component: {fileID: 7974856729100242967}
+  - component: {fileID: 2194075793852705844}
   - component: {fileID: -1510069578866426492}
+  - component: {fileID: 1853364429982632950}
   m_Layer: 0
   m_Name: Deer
   m_TagString: Untagged
@@ -249,6 +251,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &2194075793852705844
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155215343909844816}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18528372, y: 0.48397586, z: 0.40827298}
+  m_Center: {x: 0.021689061, y: 0.25801137, z: 0.06469962}
 --- !u!114 &-1510069578866426492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,7 +284,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c3fe0314c7d3004d9249a94debe8265, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 250
+  profile: {fileID: 11400000, guid: 82ed3759679ea3d4aa3b4aee2db01f47, type: 2}
+--- !u!54 &1853364429982632950
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155215343909844816}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2306847184207611404
 GameObject:
   m_ObjectHideFlags: 0
