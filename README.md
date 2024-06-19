@@ -1,2 +1,0 @@
-# MuhammadRijalunShodaqu-ujikom
- 

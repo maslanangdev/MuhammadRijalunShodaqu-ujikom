@@ -1,0 +1,4 @@
+- Audio
+- Scoring system
+- Hit Detection (still halfway through)
+- VFX
